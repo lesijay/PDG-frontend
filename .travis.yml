@@ -7,7 +7,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: a4be48d3-5c99-4783-8555-afe9e0841d61
+    secure: $heroku_key
   app: Project
   on:
     repo: lesijay/Project
