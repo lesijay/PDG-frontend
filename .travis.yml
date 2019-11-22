@@ -10,6 +10,6 @@ deploy:
   provider: heroku
   api_key:
     secure: a4be48d3-5c99-4783-8555-afe9e0841d61
-  app: Project
+  app: deca-project
   on:
     repo: lesijay/Project
