@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import Styled from 'styled-components'
 
 
-const Button = ({ width, height, opacity, backgroundColor, border,children}) => {
+const Button = ({ width, height, opacity,color, backgroundColor, border,children}) => {
     const Button = Styled.button`
         width: ${width};
+        color: ${color}
         height: ${height};
         opacity: ${opacity || "normal"};
         border-radius: 4px;
