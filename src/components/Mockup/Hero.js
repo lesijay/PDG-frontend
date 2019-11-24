@@ -43,7 +43,7 @@ const Hero = () => {
         fontWeight="bold"
         textAlign="center"
         color="#000"
-        lineHeight="1.5rem"
+        lineHeight="1.5"
         letterSpacing="1.5rem"
       >
         DISCOVER WHO YOU ARE
