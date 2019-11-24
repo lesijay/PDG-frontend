@@ -23,10 +23,11 @@ const Sizing = ({
   top,
   left,
   right,
+  borderRadius,
   children
 }) => {
   const Sizings = Styled.div`
-        width: ${width || "100%"};
+        width: ${width || ""};
         height: ${height || "100%"};
         opacity: ${opacity || "none"};
         background-color: ${backgroundColor || "none"};
@@ -46,6 +47,7 @@ const Sizing = ({
         right: ${ right || "auto" };
         position: ${ position || "static" };
         justify-items:${ justifyItems || ""};
+        border-radius:${ borderRadius || "none"};
     `;
 
   return <Sizings>{children}</Sizings>;
